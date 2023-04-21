@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+<!-- http://127.0.0.1:3000/product.html -->
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cart</title>
+
+  <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body class="bg-white">
+
+  <!-- begin navbar -->
+  <nav class="navbar navbar-expand-lg bg-white fw-bold box-shadow rounded-0 sticky-top">
+    <div class="container-fluid">
+      <a class="navbar-brand text-light-brown logo-text align-center  hstack" href="#">
+        <img src="./assets/icon/logo.png" alt="Logo" width="72" height="64"
+          class="logo-icon d-inline-block align-text-top ">
+        <span class="ms-2">Baloot</span>
+      </a>
+      <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button> -->
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link text-brown" aria-current="page" href="#">#Marshal</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-bg-brown rounded-15px fw-normal px-3" aria-current="page" href="#">
+              Cart <span class="ms-4">1</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- end navbar -->
+
+  <!-- begin main content -->
+  <main>
+    <div class="container -fluid">
+      <div class="row py-5">
+        <div class="mycard col-12 my-5 text-brown d-flex flex-wrap-reverse py-4 px-4">
+          <div class="contact-info col-12 col-lg-6 px-4 px-lg-0 mt-5 mt-lg-0  fs-28px fw-600 overflow-hidden">
+            <p>
+              <img class="me-3" src="./assets/icon/user.svg" alt="user-icon" width="20" height="20">
+              Marshal
+            </p>
+            <p>
+              <img class="me-3" src="./assets/icon/mail.svg" alt="mail-icon" width="20" height="20">
+              Marshal.Marshals@gmail.com
+            </p>
+            <p>
+              <img class="me-3" src="./assets/icon/calendar.svg" alt="calendar-icon" width="20" height="20">
+              1972/10/17
+            </p>
+            <p>
+              <img class="me-3" src="./assets/icon/location.svg" alt="location-icon" width="20" height="20">
+              Lorem ipsum dolor sit amet
+            </p>
+          </div>
+          <div class="col-12 col-lg-6 text-center ">
+            <h1 class="total-price fw-bold mb-3">
+              <span>$</span>10000000
+            </h1>
+            <p><button type="button" class="btn text-grey border border-grey w-727px mw-100">$Amount</button>
+            </p>
+            <p><button type="button" class="btn text-bg-brown w-727px mw-100">Add More Credit</button></p>
+          </div>
+        </div>
+        <div class="col-12 my-5 text-brown">
+          <h3 class="mb-4 cart-text">
+            <img src="./assets/icon/cart.svg" alt="cart-icon" width="32" height="32">
+            Cart
+          </h3>
+          <div class="table-responsive ">
+            <div class="table fs-28px text-center border-">
+              <div class="table-head text-dark col-12">
+                <div class="tr mycard hstack col-12 py-3 px-4 my-4">
+                  <span class="th col">Image</span>
+                  <span class="th col">Name</span>
+                  <span class="th col">Categories</span>
+                  <span class="th col">Price</span>
+                  <span class="th col">Provider ID</span>
+                  <span class="th col">Rating</span>
+                  <span class="th col">In Stock</span>
+                  <span class="th col">In Cart</span>
+                </div>
+              </div>
+              <div class="table-body text-grey col-12">
+                <div class="tr mycard hstack col-12 py-3 px-4 my-4">
+                  <span class="td colblock ">
+                    <img src="./assets/img/phone.png" alt="" width="106" height="102">
+                  </span>
+                  <span class="td col">Galaxy S21</span>
+                  <span class="td col">Technology, Phone</span>
+                  <span class="td col">$21000000</span>
+                  <span class="td col">1234</span>
+                  <span class="td col fs-36px text-yellow">8.3</span>
+                  <span class="td col fs-36px text-red">17</span>
+                  <span class="td col">
+                    <div class="btn-droup hstack border border-grey rounded-15px text-dark">
+                      <button type="button" class="btn shadow-none col">&minus;</button>
+                      <span class="fs-24px col">1</span>
+                      <button type="button" class="btn shadow-none col">&plus;</button>
+                    </div>
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="text-center">
+            <button type="button" class="btn text-bg-brown px-5 my-4 mw-100 w-727px mw-100">Pay Now!</button>
+          </div>
+        </div>
+        <div class="col-12 my-5 text-brown">
+          <h3 class="mb-4 cart-text">
+            <img src="./assets/icon/history.svg" alt="cart-icon" width="35" height="30">
+            History
+          </h3>
+          <div class="table-responsive">
+            <div class="table fs-28px text-center border-">
+              <div class="table-head text-dark col-12 ">
+                <div class="tr mycard hstack col-12 py-3 px-4 my-4 ">
+                  <span class="th col">Image</span>
+                  <span class="th col">Name</span>
+                  <span class="th col">Categories</span>
+                  <span class="th col">Price</span>
+                  <span class="th col">Provider ID</span>
+                  <span class="th col">Rating</span>
+                  <span class="th col">In Stock</span>
+                  <span class="th col">Quantity</span>
+                </div>
+              </div>
+              <div class="table-body text-grey col-12">
+                <div class="tr mycard hstack col-12 py-2 px-4 my-4">
+                  <span class="td col">
+                    <img src="./assets/img/pic1.png" alt="" width="106" height="102">
+                  </span>
+                  <span class="td col">Mom’s Spaghetti</span>
+                  <span class="td col">Food</span>
+                  <span class="td col">$21000000</span>
+                  <span class="td col">1234</span>
+                  <span class="td col fs-36px text-yellow">10</span>
+                  <span class="td col fs-36px text-red">0</span>
+                  <span class="td col fs-36px text-grey">3</span>
+                </div>
+                <div class="tr mycard hstack col-12 py-3 px-4 my-4">
+                  <span class="td col px-2 ">
+                    <img src="./assets/img/pic2.png" alt="" width="106" height="102">
+                  </span>
+                  <span class="td col px-2">Dre’s Microphone</span>
+                  <span class="td col px-2 ">Technology</span>
+                  <span class="td col px-2 ">$21000000</span>
+                  <span class="td col px-2 ">1234</span>
+                  <span class="td col px-2  fs-36px text-yellow">8.5</span>
+                  <span class="td col px-2  fs-36px text-red">22</span>
+                  <span class="td col px-2  fs-36px text-grey">1</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <!-- end main content -->
+
+  <!-- begin footer -->
+  <footer class="text-bg-brown text-center small">
+    <div class="container">
+      <div class="row py-2">
+        <p class="m-0">2023 &copy; UT</p>
+      </div>
+    </div>
+  </footer>
+  <!-- end footer -->
+
+</body>
+
+</html>
